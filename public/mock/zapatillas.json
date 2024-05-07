@@ -1,0 +1,76 @@
+{
+  "zapatillas": [
+    {
+      "id": 1,
+      "marca": "Adidas",
+      "precio": "$99.999",
+      "images": "images/adidas1.jpg"
+    },
+    {
+      "id": 2,
+      "marca": "Adidas",
+      "precio": "$77.279",
+      "images": "images/adidas2.jpg"
+    },
+    {
+      "id": 3,
+      "marca": "Nike",
+      "precio": "$79.999",
+      "images": "images/nike1.jpg"
+    },
+    {
+      "id": 4,
+      "marca": "Nike",
+      "precio": "$209.999",
+      "images": "images/nike2.jpg"
+    },
+    {
+      "id": 5,
+      "marca": "Topper",
+      "precio": "$72.399",
+      "images": "images/topper1.jpg"
+    },
+    {
+      "id": 6,
+      "marca": "Topper",
+      "precio": "$58.565",
+      "images": "images/topper2.jpg"
+    },
+    {
+      "id": 7,
+      "marca": "Fila",
+      "precio": "$144.999",
+      "images": "images/fila1.jpg"
+    },
+    {
+      "id": 8,
+      "marca": "Fila",
+      "precio": "$44.899",
+      "images": "https://http2.mlstatic.com/D_NQ_NP_834536-MLA75623648746_042024-O.webp"
+    },
+    {
+      "id": 9,
+      "marca": "Reebok",
+      "precio": "$99.999",
+      "images": "images/reebok1.jpg"
+    },
+    {
+      "id": 10,
+      "marca": "Reebok",
+      "precio": "$144.999",
+      "images": "images/reebok2.jpg"
+    },
+    {
+      "id": 11,
+      "marca": "Salomon",
+      "precio": "$199.999",
+      "images": "images/salomon.jpg"
+    },
+    {
+      "id": 12,
+      "marca": "Salomon",
+      "precio": "$184.999",
+      "images": "images/salomon2.jpg"
+    }
+  ]
+}

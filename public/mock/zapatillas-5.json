@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "marca": "Topper",
+  "modelo": "Gondor Versión II",
+  "material": "Malla, Cuero sintéticoy suela de goma",
+  "genero": "hombre",
+  "edad": "adultos",
+  "precio": "$72.399",
+  "color": ["verde", "Gris/Negro/Naranja"],
+  "tallesDisponibles": "del 38-45",
+  "images": "../images/topper1.jpg"
+}

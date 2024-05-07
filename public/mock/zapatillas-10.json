@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "marca": "Reebok",
+  "modelo": "RBK1100069914",
+  "material": "Poliéster,tela y suela caucho Ortholite",
+  "genero": "mujer",
+  "edad": "adultos",
+  "precio": "$144.999",
+  "color": "beige",
+  "tallesDisponibles": "del 34-40",
+  "images": "../images/reebok2.jpg"
+}

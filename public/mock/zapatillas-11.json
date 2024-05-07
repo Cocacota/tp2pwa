@@ -1,0 +1,12 @@
+{
+  "id": 6,
+  "marca": "Salomon",
+  "modelo": "Cross Over 2 GTX",
+  "material": "Cuero,malla y suela de goma",
+  "genero": "hombre",
+  "edad": "adultos",
+  "precio": "$199.999",
+  "color": "gris oscuro",
+  "tallesDisponibles": "del 38-44",
+  "images": "../images/salomon.jpg"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nombre": "Procesador Intel Core i7-11700K",
+    "precio": 399.99,
+    "descripcion": "Procesador de 8 núcleos y 16 hilos de alto rendimiento para computadoras de escritorio.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 2,
+    "nombre": "Tarjeta gráfica NVIDIA GeForce RTX 3080",
+    "precio": 799.99,
+    "descripcion": "Tarjeta gráfica de última generación con arquitectura Ampere para un rendimiento gaming extremo.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 3,
+    "nombre": "Placa madre ASUS ROG Strix Z590-E Gaming WiFi 6E",
+    "precio": 329.99,
+    "descripcion": "Placa madre ATX para procesadores Intel de 11ª y 10ª generación con conectividad WiFi 6E y Bluetooth 5.2.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 4,
+    "nombre": "Memoria RAM Corsair Vengeance RGB Pro 32GB (2 x 16GB) DDR4-3200",
+    "precio": 169.99,
+    "descripcion": "Kit de memoria RAM DDR4 de alto rendimiento con iluminación RGB dinámica.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 5,
+    "nombre": "SSD Samsung 970 EVO Plus 1TB NVMe M.2",
+    "precio": 149.99,
+    "descripcion": "Disco de estado sólido NVMe M.2 con velocidades de lectura y escritura ultrarrápidas.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 6,
+    "nombre": "Disco duro Seagate BarraCuda 4TB",
+    "precio": 89.99,
+    "descripcion": "Disco duro interno de 3.5 pulgadas con 7200 RPM y 256 MB de caché.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 7,
+    "nombre": "Fuente de alimentación Corsair RM750x",
+    "precio": 119.99,
+    "descripcion": "Fuente de alimentación modular con certificación 80 PLUS Gold y ventilador de rodamiento fluido.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 8,
+    "nombre": "Refrigeración líquida NZXT Kraken X73",
+    "precio": 179.99,
+    "descripcion": "Sistema de refrigeración líquida todo en uno con tres ventiladores Aer P de 120 mm y pantalla LCD.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 9,
+    "nombre": "Caja de computadora NZXT H510 Elite",
+    "precio": 149.99,
+    "descripcion": "Caja de computadora ATX compacta con panel frontal de vidrio templado y RGB integrado.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 10,
+    "nombre": "Teclado mecánico Corsair K95 RGB Platinum XT",
+    "precio": 199.99,
+    "descripcion": "Teclado gaming mecánico con interruptores Cherry MX Speed y retroiluminación RGB dinámica.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 11,
+    "nombre": "Mouse gaming Logitech G502 Hero",
+    "precio": 79.99,
+    "descripcion": "Mouse gaming con sensor HERO 16K de alta precisión y 11 botones programables.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  },
+  {
+    "id": 12,
+    "nombre": "Monitor ASUS ROG Swift PG279Q",
+    "precio": 699.99,
+    "descripcion": "Monitor gaming IPS de 27 pulgadas con resolución WQHD y frecuencia de actualización de 165 Hz.",
+    "imagen": "https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2023/01/4090ti.jpg?resize=750%2C400&ssl=1"
+  }
+]

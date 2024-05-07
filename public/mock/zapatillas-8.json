@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "marca": "Fila",
+  "modelo": "F02AT0565149",
+  "material": " tela y Poliéster",
+  "genero": "mujer",
+  "edad": "adultos",
+  "precio": "$44.899",
+  "color": "rosa",
+  "tallesDisponibles": "del 34-40",
+  "images": "../images/fila2.jpg"
+}

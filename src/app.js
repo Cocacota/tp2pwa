@@ -1,15 +1,17 @@
-import './App.css';
-import Home from './pages/home/Home';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Lista from "./componentes/Lista/Lista";
+import DetallesProducto from "./pages/detalles/Detalles"; // Importa el componente de detalles de producto
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Home />
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Lista />} />
+        {/* Ruta para los detalles del producto */}
+        <Route path="/zapatillas/:id" element={<DetallesProducto />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
