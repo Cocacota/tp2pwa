@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-
+import Text from "../../componentes/Text/Text";
+import Header from "../../componentes/Header/Header";
+import Footer from "../../componentes/Footer/Footer";
 const DetallesProducto = () => {
   const { id } = useParams();
   const [producto, setProducto] = useState(null);
@@ -39,7 +41,10 @@ const DetallesProducto = () => {
   };
 
   return (
+  <div className="w-screem h-screem">
+  <Header />
     <div className="flex items-center justify-center min-h-screen">
+      
       <div className="bg-white max-w-md w-full rounded-lg shadow-lg p-8">
         <img
           src={`${producto.images}`}
@@ -52,17 +57,16 @@ const DetallesProducto = () => {
         <p className="text-gray-900 font-bold text-xl mb-2">
           Precio: {producto.precio}
         </p>
-        <p className="text-gray-700 mb-2">Marca: {producto.marca}</p>
-        <p className="text-gray-700 mb-2">Material: {producto.material}</p>
-        <p className="text-gray-700 mb-2">Género: {producto.genero}</p>
-        <p className="text-gray-700 mb-2">Edad: {producto.edad}</p>
-        <p className="text-gray-700 mb-2">
-          Color: {mostrarColores(producto.color)}
-        </p>
-        <p className="text-gray-700 mb-2">
-          Talles disponibles: {producto.tallesDisponibles}
-        </p>
+        <Text text={`Marca: ${producto.marca}`}/>
+        <Text text={`Material: ${producto.material}`}/>
+        <Text text={`Género: ${producto.genero}`}/>
+        <Text text={`Edad: ${producto.edad}`}/>
+        <Text text={`Color: ${mostrarColores(producto.color)}`}/>        
+        <Text text={`Talles disponibles: ${producto.tallesDisponibles}`}/>
+                
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 };

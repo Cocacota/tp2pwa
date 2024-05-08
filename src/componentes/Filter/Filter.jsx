@@ -2,7 +2,9 @@ import React from "react";
 
 const Filter = ({ onFilter }) => {
   const handleChange = (event) => {
+    
     onFilter(event.target.value.trim());
+    
   };
 
   return (
@@ -11,8 +13,7 @@ const Filter = ({ onFilter }) => {
       type="text"
       placeholder="¿Qué tenes ganas de vestir hoy?"
       onChange={handleChange}
-    />
-  );
+    />  );
 };
 
 export default Filter;
