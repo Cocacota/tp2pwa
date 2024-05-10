@@ -1,0 +1,12 @@
+{
+  "id": 6,
+  "marca": "Salomon",
+  "modelo": "Speedcross6",
+  "material": "Tejido,tela y suela de goma",
+  "genero": "hombre",
+  "edad": "adultos",
+  "precio": "$184.990",
+  "color": ["azul", "negro", "gris"],
+  "tallesDisponibles": "del 38-44",
+  "images": "../images/salomon2.jpg"
+}

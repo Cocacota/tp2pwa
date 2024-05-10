@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "marca": "Nike",
+  "modelo": "DH4071-401",
+  "material": " Malla y suela de goma",
+  "genero": "hombre",
+  "edad": "adultos",
+  "precio": "$209.999",
+  "color": "azul",
+  "tallesDisponibles": "del 38-45",
+  "images": "../images/nike2.jpg"
+}

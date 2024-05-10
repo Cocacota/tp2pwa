@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "marca": "Topper",
+  "modelo": "Liss",
+  "material": "Malla y suela de goma",
+  "genero": "mujer",
+  "edad": "adultos",
+  "precio": "$58.565",
+  "color": "rosa",
+  "tallesDisponibles": "del 35-40",
+  "images": "../images/topper2.jpg"
+}

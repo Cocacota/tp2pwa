@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "marca": "Adidas",
+  "modelo": "Performance",
+  "material": "tela sintetica y suela de goma antideslizante",
+  "genero": "unisex",
+  "edad": "adulto",
+  "precio": "$77.279",
+  "color": "gris",
+  "tallesDisponibles": "del 38-43",
+  "images": "../images/adidas2.jpg"
+}

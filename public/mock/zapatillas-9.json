@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "marca": "Reebok",
+  "modelo": "Princess 7344",
+  "material": "Sintético PU 100%,tela y suela caucho Ortholite",
+  "genero": "mujer",
+  "edad": "adultos",
+  "precio": "$99.999",
+  "color": "negro",
+  "tallesDisponibles": "del 34-40",
+  "images": "../images/reebok1.jpg"
+}

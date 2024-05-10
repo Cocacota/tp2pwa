@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TP PWA REACT GRUPO 14
 
-## Getting Started
+## Integrantes
 
-First, run the development server:
+Salto, Tomas Agustin FAI-3635\
+Salazar Daniel FAI-962\
+Julian Tolosa fai-3182
+
+## Instalacion del proyecto
+
+1. Clonar repositorio del proyecto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Cocacota/tp2pwa.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instalar las dependecias del proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Levantar el proyecto
 
-## Learn More
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Documentación
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ZapatillasNQN es tu destino definitivo para encontrar el calzado deportivo o de moda más actualizado. Con una amplia selección de zapatillas, puedes filtrar fácilmente por marca o color para encontrar el par perfecto que se adapte a tu estilo y necesidades.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Imagen de la página principal.
 
-## Deploy on Vercel
+[![image.png](https://i.postimg.cc/7L8wRvCm/image.png)](https://postimg.cc/0zfT6B0w)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Imagen de la página detalles.
+[![image.png](https://i.postimg.cc/sgSR7nnS/image.png)](https://postimg.cc/gxY5PKbk)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## App.js
+
+[![image.png](https://i.postimg.cc/ZYBZJKrV/image.png)](https://postimg.cc/qgTWLrD3)
+
+En este archivo utilizamos la libreria `react-router-dom` para la creación y manipulación de rutas importando los componentes `Router` que envuelve la aplicación y le permite acceder al historial de navegación, `Routes` es un componente contenedor utilizado para agrupar múltiples rutas en la aplicación y `Route` es un componente utilizado para definir una ruta específica en la aplicación. En este caso, en el primer elemeto `Route` cuando el path es igual a `RUTAS.home` vamos a renderizar el element `Home`, y en la segunda `Route` cuando el path sea `RUTAS.detalles` vamos a mostar el element `DetallesProducto`.
+
+## Detalles.jsx
+
+[![image.png](https://i.postimg.cc/W3DRpXJh/image.png)](https://postimg.cc/BLG7M5p0)
+
+En este archivo utilizamos la liberia `react-router-dom` para utilizar el hook `useParams()` en donde obtenemos los parametros de la url, en este caso obtenemos el `id` de la url `/mock/zapatillas${id}.json` para saber de que zapatilla tenemos que mostrar los detalles.
+
+Luego utilizamos el hook `useEffect()` para realizar la solicitud de datos de una zapatilla. La funcion de efecto se ejecuta cada vez que cambia la dependencia en el array de dependencias que en nuestro caso sería `[id]`.
+
+La función `fetch()` realizamos una solicitud `HTTP` a nuestro mock de datos. Después de realizar la solicitud, se encadenan varios métodos then y `catch` para manejar la respuesta de la solicitud.\
+Si la solicitud es exitosa `(response.ok es true)`, se convierte la respuesta a formato JSON mediante `response.json()`, y los datos del producto se establecen en el estado utilizando `setProducto(data)`.\
+Si la solicitud falla o la respuesta no es satisfactoria, se lanza un error y se maneja en el bloque `catch`, donde se registra el error en la consola.

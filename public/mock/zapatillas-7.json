@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "marca": "Fila",
+  "modelo": "Racer Spider",
+  "material": "malla,tela y suela de goma",
+  "genero": "hombre",
+  "edad": "adultos",
+  "precio": "$144.999",
+  "color": ["Coral/Negro/Lima", "Negro/Plata/Rojo"],
+  "tallesDisponibles": "del 38-44",
+  "images": "../images/fila1.jpg"
+}

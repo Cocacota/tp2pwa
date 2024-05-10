@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "marca": "Adidas",
+  "modelo": "Grand Court",
+  "material": "Cuero sintético y suela de goma antideslizante",
+  "genero": "hombre",
+  "edad": "adulto",
+  "precio": "$99.999",
+  "color": "blanco",
+  "tallesDisponibles": "del 38-45",
+  "images": "../images/adidas1.jpg"
+}

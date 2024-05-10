@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "marca": "Nike",
+  "modelo": "DD1096-401",
+  "material": "tela ligera,espuma suave en la planta del pie brinda amortiguación y suela de goma",
+  "genero": "unisex",
+  "edad": "niños",
+  "precio": "$79.999",
+  "color": "azul",
+  "tallesDisponibles": "del 28-34",
+  "images": "../images/nike1.jpg"
+}
