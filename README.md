@@ -51,6 +51,6 @@ En este archivo utilizamos la liberia `react-router-dom` para utilizar el hook `
 
 Luego utilizamos el hook `useEffect()` para realizar la solicitud de datos de una zapatilla. La funcion de efecto se ejecuta cada vez que cambia la dependencia en el array de dependencias que en nuestro caso sería `[id]`.
 
-La función `fetch()` realizamos una solicitud `HTTP` a nuestro mock de datos. Después de realizar la solicitud, se encadenan varios métodos then y `catch` para manejar la respuesta de la solicitud.\
+En la función `fetch()` realizamos una solicitud `HTTP` a nuestro mock de datos. Después de realizar la solicitud, se encadenan varios métodos `then` y `catch` para manejar la respuesta de la solicitud.\
 Si la solicitud es exitosa `(response.ok es true)`, se convierte la respuesta a formato JSON mediante `response.json()`, y los datos del producto se establecen en el estado utilizando `setProducto(data)`.\
 Si la solicitud falla o la respuesta no es satisfactoria, se lanza un error y se maneja en el bloque `catch`, donde se registra el error en la consola.
