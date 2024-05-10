@@ -7,9 +7,11 @@ import React, { useState, useEffect } from "react";
 const Home = () => {
   const [zapatillas, setZapatillas] = useState([]);
   const [marcaFiltro, setMarcaFiltro] = useState('');
-  const [coloresFiltro, setColoresFiltro] = useState([]);
+  const [coloresSeleccionados, setColoresSeleccionados] = useState([]);
 
   
+
+
   useEffect(() => {
     // Realizar la solicitud Fetch para obtener los datos de zapatillas.json
     fetch("/mock/zapatillas.json")
@@ -26,8 +28,14 @@ const handleMarcaChange = (marca) => {
     setMarcaFiltro(marca);
   };
 
-  const handleColorChange = (colores) => {
-    setColoresFiltro(colores);
+  const handleColorChange = (color,check) => {
+
+    if (check) {
+      setColoresSeleccionados([...coloresSeleccionados, color]);
+    } else {
+      setColoresSeleccionados(coloresSeleccionados.filter(colors => colors !== color));
+    }
+   
   };
  
   
@@ -38,7 +46,7 @@ const handleMarcaChange = (marca) => {
     );
   };
 
-  const arregloFiltrado = filtrarZapatillas(zapatillas, marcaFiltro, coloresFiltro);
+  const arregloFiltrado = filtrarZapatillas(zapatillas, marcaFiltro, coloresSeleccionados);
 
 
   
@@ -46,12 +54,14 @@ const handleMarcaChange = (marca) => {
 
     <div className="relative w-full">
       <Header />
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10 items-center">
+        
         <Filter onFilter={handleMarcaChange} />
-        <FiltroColor onColorChange={handleColorChange} color={"rojo"}/>
-        <FiltroColor onColorChange={handleColorChange} color={"verde"}/>
-        <FiltroColor onColorChange={handleColorChange} color={"rosa"}/>
-        <FiltroColor onColorChange={handleColorChange} color={"gris"}/>
+        
+        <FiltroColor onColorChange={handleColorChange} color={"rojo"} />
+        <FiltroColor onColorChange={handleColorChange} color={"blanco"} />
+        <FiltroColor onColorChange={handleColorChange} color={"azul"} />
+        <FiltroColor onColorChange={handleColorChange} color={"negro"} />
 
       </div>
       

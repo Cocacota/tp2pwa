@@ -13,7 +13,7 @@ const Tarjeta = ({ producto }) => {
   };
 
   return (
-    <div className=" border border-gray-950 rounded overflow-hidden shadow-lg mb-10 mt-5 w-52 h-90 bg-white">
+    <div className=" border border-gray-950 rounded overflow-hidden shadow-lg mb-10 mt-5  bg-white">
       <img className="w-full h-80" src={producto.images} alt={producto.marca} />
       <div className="px-6 py-4">
         <h4 className="font-bold text-xl mb-2">Zapatilla {producto.marca}</h4>
@@ -21,7 +21,7 @@ const Tarjeta = ({ producto }) => {
       </div>
       {/* Botón de detalles */}
       <div className="px-6 py-4">
-        <Button onClick={handleDetallesClick} text={"mas detalles"}/>
+        <Button onClick={handleDetallesClick} text={"Mas detalles"}/>
           
         
       </div>

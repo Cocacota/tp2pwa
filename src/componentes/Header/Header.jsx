@@ -26,7 +26,6 @@ const Header =({nombre})=>{
         </div>
         <nav>
           <ul className="flex space-x-16">
-            <li><a className="hover:text-gray-300">Inicio</a></li>
             <li><a className="hover:text-gray-300">Acerca de</a></li>
             <li><a className="hover:text-gray-300">Contacto</a></li>
           </ul>

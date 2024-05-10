@@ -19,7 +19,7 @@ const Lista = ({zapatillas}) => {
   return (
     <>
       {console.log(zapatillas.length)}
-      <div className="flex items-center justify-center min-h-screen container mx-auto">
+      <div className="flex place-items-start justify-center min-h-screen container mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-4 px-10">
           {zapatillas.length > 0 ? (
             zapatillas.map((zapatilla) => (

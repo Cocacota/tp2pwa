@@ -1,23 +1,15 @@
 import Style from "./FiltroColor.moduls.css";
-import { useState } from "react";
 const FiltroColor = ({ onColorChange,color }) => {
-  const [coloresSeleccionados, setColoresSeleccionados] = useState([]);
 
   const handleColorChange = (event) => {
     const colorSeleccionado = event.target.value;
     const isChecked = event.target.checked;
+    onColorChange(colorSeleccionado,isChecked);
 
-    if (isChecked) {
-      setColoresSeleccionados([...coloresSeleccionados, colorSeleccionado]);
-    } else {
-      setColoresSeleccionados(coloresSeleccionados.filter(color => color !== colorSeleccionado));
-    }
-
-    onColorChange(coloresSeleccionados);
   };
   return(
-    <label>
-        <input type="checkbox" value={color} onChange={handleColorChange} />
+    <label className=" ml-16  text-black-700 text-lg text-b justify-center">
+        <input type="checkbox" value={color} onChange={handleColorChange} className=" rounded-lg checked:bg-blue-500 mr-2"/>
         {color}
       </label>
   );

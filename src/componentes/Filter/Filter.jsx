@@ -9,7 +9,7 @@ const Filter = ({ onFilter }) => {
 
   return (
     <input
-      className=" input-filter rounded-full"
+      className=" input-filter rounded-full text-lg"
       type="text"
       placeholder="¿Qué tenes ganas de vestir hoy?"
       onChange={handleChange}
